@@ -29,13 +29,13 @@
         }
 
         body {
+            margin: 100px;
             display: flex;
             flex-direction: column; /* Change to column layout */
             justify-content: center;
             align-items: center;
             height: 100vh;
             padding-top: 0px; /* Adjust padding to create space between header and boxes */
-            margin: 150px;
         }
 
         .container {
@@ -48,7 +48,7 @@
 
         .box {
             width: 100%; /* Adjust width for side by side */
-            height: 25%; /* Increased height for better fit */
+            height: auto; /* Increased height for better fit */
             background-color:  rgb(0, 153, 100);
             margin: 10px;
             display: flex;
@@ -62,11 +62,11 @@
         /* New CSS rule for border box */
         .border-box {
             border: 3px solid; /* Creates a solid border */
-            padding: 15px; /* Adds some padding inside the border */
+            padding: 30px; /* Adds some padding inside the border */
             text-align: center; /* Align text to the left */
+            padding-top:10px;
             border-radius: 15px;
             color:  rgb(0, 153, 100);
-            height: 40%;
         }
 
         /* New CSS rule to change link color to white */
@@ -112,11 +112,11 @@
                 <div><a href="mailto:sesin@crmto.org.br">sesin@crmto.org.br</a></div>
             </div>
         </div>
-    
+    </div>
     <br>
     <div class="border-box">
         <h2>Setor de Processo Ético</h2>
-        
+        <div class="container">
             <div class="box">
                 <span class="icon">
                     <img src="icone-du-logo-whatsapp-gris-removebg-preview.png" alt="WhatsApp Icon" style="width: 50px; height: 50px; margin-right: 5px; padding: 10px;">
